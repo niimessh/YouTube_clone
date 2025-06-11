@@ -1,0 +1,171 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 100;
+}
+.searchbutt{
+    height: 34px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F2F2F2;
+    border-color:  rgb(196, 195, 195);
+    border-width: 0.1px;
+    border-radius: 0 20px 20px 0;
+    padding-left: 2px;
+    padding-right: 10px;
+    cursor: pointer; 
+    margin-left: -1px;
+    border-style: solid;
+    box-shadow:inset 1px 1px 2px rgba(0, 0, 0, 0.02);
+}
+.searchbutt:hover{
+    background-color: #D9D9D9;
+}
+.voicesearchbutt{
+    height: 34px;
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 17px;
+    border: none;
+    background-color:#F2F2F2;
+
+}
+
+.voicesearchbutt:hover{
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+
+.hamburgmenu{
+    height: 18px;
+    margin-right: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 8px;
+}
+.hamburgmenu:hover{
+    background-color:#E5E5E5;
+    border-radius: 18px;
+}    
+
+.ytlogomain{
+    height: 92px;
+    cursor: pointer;
+}
+.LeftHeader{
+    display: flex;
+    align-items:center;
+}
+.MiddleCenter{
+    flex: 1 ;
+    margin-left: 80px;
+    margin-right: 35px;
+    max-width: 580px;
+    display: flex;
+    margin-top: 6px;
+}
+.RightHeader{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 24px;
+    flex-shrink: 0px;
+    padding-top: 1px;
+}
+.searchbutt img, .voicesearchbutt img {
+    width: 16px; 
+    height: 16px;
+} 
+.searchbox{
+    flex: 1;
+    height: 31px;
+    border-radius: 20px 0 0 20px;
+    border-color: rgb(196, 195, 195);
+    padding-left: 15px;
+    border-width: 0.5px;
+    border-style: solid;
+    box-shadow:inset 1px 1px 2px rgba(0, 0, 0, 0.02);
+}   
+
+.searchbox::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 10px;
+    opacity: 0.8;
+}
+.searchicon{
+    height:20px;
+}
+.createicon{
+    height: 20px;
+    cursor: pointer;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1px;
+    margin-top: 8px;
+    padding: 6px;
+ 
+}
+.createicon:hover{
+    background-color: #E5E5E5;
+    border-radius: 20px;
+}
+
+.notificationicon{
+    height: 16px;
+    padding-top: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-top: 9px;
+    padding: 8px;
+
+}
+.notificationicon:hover{
+    background-color: #E5E5E5;
+    border-radius: 30px;
+
+}
+.usericon{
+    height: 25px;
+    border-radius: 12.5px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.searchbox::placeholder {
+    font-size: 13.4px;
+    font-family: Roboto,Arial;
+}
+.notificationcontainer{
+    position: relative;
+    margin-right: 10px;
+}
+.notificationcount{
+    position: absolute;
+    background-color: rgb(197, 6, 6);
+    color: white;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 1.4px;
+    padding-bottom: 1.4px;
+    border-radius: 20px;
+    right: -4px;
+    top: 10px;
+    font-family: Roboto,Arial;
+    font-size: 9.5px;
+    margin-left: 16px;
+    cursor: pointer;
+}
